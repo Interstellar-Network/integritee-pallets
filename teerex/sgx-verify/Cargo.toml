@@ -15,7 +15,7 @@ codec = { version = "3.0.0", default-features = false, features = ["derive"], pa
 der = { default-features = false, version = "0.6.0" }
 hex = { default-features = false, version = "0.4.3", features = ["alloc"] }
 hex-literal = { version = "0.3.2" }
-ring = { git = "https://github.com/Niederb/ring-xous.git", branch = "0.16.20-cleanup", default-features = false, features = ["alloc"] }
+# ring = { git = "https://github.com/Niederb/ring-xous.git", branch = "0.16.20-cleanup", default-features = false, features = ["alloc"] }
 scale-info = { version = "2.0.1", default-features = false, features = ["derive"] }
 serde = { default-features = false, version = "1.0.140", features = ["derive"] }
 serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
@@ -42,7 +42,7 @@ std = [
     "codec/std",
     "der/std",
     "hex/std",
-    "ring/std",
+    # "ring/std",
     "scale-info/std",
     "serde/std",
     "serde_json/std",
